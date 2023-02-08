@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content:center;
+
+    background: url(./617537.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.box {
+    margin-top: 150px;
+    background: #eee;
+    padding: 1rem;
+    min-width: 100% 4rem 5rem;
+    box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, .246);
+    border: 2px solid #eee;
+    border-radius: 8px;
+}
+
+input {
+    margin-top: 10px;
+    border:1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+}
+
+
+button {
+    border: none;
+    background:#febf71;
+    color: #eee;
+    border-radius: 2px;
+    padding: 3px 10px;
+}
